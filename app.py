@@ -5,7 +5,7 @@ import plotly_express as px
 
 # Carga de dataset .csv
 car_data = pd.read_csv(
-    '/Users/irmalupita/proyecto_7/repo_vehicles/vehicles_us.csv')
+    'vehicles_us.csv')
 
 
 st.header('Compara-precios $$')
